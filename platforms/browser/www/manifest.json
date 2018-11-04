@@ -1,0 +1,16 @@
+{
+  "background_color": "#FFF",
+  "display": "standalone",
+  "name": "razatxt",
+  "short_name": "razatxt",
+  "version": "com.timesvideos.oldhindisongs'",
+  "author": "umar draz",
+  "icons": [
+    {
+      "src": "www/img/icon.png",
+      "type": "image/png",
+      "sizes": "undefinedxundefined"
+    }
+  ],
+  "start_url": "index.html"
+}
