@@ -64,8 +64,8 @@ $.ajax(settings).done(function (response)
    {
   $( "#descriptionId" ).html( response.Discraption );  
    }
-   $('.carousel').carousel({
-         interval: 1000
+   $('#myCarousel').carousel({
+         interval: 500
     });
   $('.navbar').css('display','block');
   $('.descriptionDiv').css('display','block');
@@ -74,7 +74,7 @@ $.ajax(settings).done(function (response)
   $('.slider-slick .overlay').css('background','linear-gradient(to left,'+response.ActionBarColor+', #c4c4c4)');
   $('.slider-slick .overlay').css('background','-webkit-linear-gradient(to left,'+response.ActionBarColor+', #c4c4c4)');
   $('.w3-bar').css('background-color', response.ActionBarColor);
-  StatusBar.backgroundColorByHexString(response.ActionBarColor);
+  StatusBar.backgroundColorByHexString('#000');
   var border = "5px solid "+' '+response.ActionBarColor;  
   $('#backbutton .main_bar').css('border-bottom' ,border );
   $('.my_lazy_loader .getname').css('border-bottom' ,'2px solid '+' '+response.ActionBarColor );
@@ -128,7 +128,7 @@ return responseArray;
 
 function appSettingInterval(pkgname)
 {
-var base_url = "http://appqubz-001-site1.etempurl.com/";
+var base_url = "http://appgenny.com/";
 var settings = {
   "async": true,
   "crossDomain": true,
@@ -179,14 +179,13 @@ function oneSignalNotification()
  var notificationOpenedCallback = function(jsonData) {
     console.log('notificationOpenedCallback: ' + JSON.stringify(jsonData));
   };
-    window.plugins.OneSignal.enableInAppAlertNotification(false);
-    window.plugins.OneSignal.enableNotificationsWhenActive(true);
     window.plugins.OneSignal
     .startInit(notificationId)
     .handleNotificationOpened(notificationOpenedCallback)
+    .inFocusDisplaying(window.plugins.OneSignal.OSInFocusDisplayOption.Notification)
     .endInit();
-   
-  
+     
+
    },function(err){
       console.log(err);
       //alert(err);

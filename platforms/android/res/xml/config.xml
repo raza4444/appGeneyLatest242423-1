@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.timesvideos.oldhindisongs'" version="1.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.test.byumer" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <feature name="Whitelist">
         <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
         <param name="onload" value="true" />
@@ -11,7 +11,7 @@
     <feature name="OneSignalPush">
         <param name="android-package" value="com.plugin.gcm.OneSignalPush" />
     </feature>
-    <name>razatxt</name>
+    <name>Mohammad Rafi Songs</name>
     <author email="umardraz651@gmail.com" href="http://cordova.io">umar draz</author>
     <icon src="www/img/icon.png" />
     <content src="index.html" />
@@ -34,7 +34,7 @@
     <preference name="android-targetSdkVersion" value="26" />
     <preference name="android-build-tool" value="gradle" />
     <preference name="StatusBarOverlaysWebView" value="true" />
-    <preference name="onesignal" value="6018160f-9d04-4af4-8ba7-1fed0cbdc845" />
-    <preference name="admobBannerId" value="ca-app-pub-2607313420010336/7643001475" />
-    <preference name="admobInterstitialId" value="ca-app-pub-2607313420010336/2217508304" />
+    <preference name="onesignal" value="9b68e32d-e763-47de-98cf-de9949035a5a" />
+    <preference name="admobBannerId" value="ca-app-pub-2607313420010336/7153025190" />
+    <preference name="admobInterstitialId" value="ca-app-pub-2607313420010336/9296930663" />
 </widget>

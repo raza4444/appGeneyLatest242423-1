@@ -11,7 +11,7 @@ function mainarea()
 		
 	}
 	else
-	{
+	{	StatusBar.hide();
 		localStorage.setItem("openVideoModelId",'0');
 		localStorage.setItem("runVideoId",'0');
 		localStorage.setItem('category_id_wallpaper' , '0');

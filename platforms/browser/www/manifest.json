@@ -1,9 +1,9 @@
 {
   "background_color": "#FFF",
   "display": "standalone",
-  "name": "razatxt",
-  "short_name": "razatxt",
-  "version": "com.timesvideos.oldhindisongs'",
+  "name": "Mohammad Rafi Songs",
+  "short_name": "Mohammad Rafi Songs",
+  "version": "com.test.byumer",
   "author": "umar draz",
   "icons": [
     {

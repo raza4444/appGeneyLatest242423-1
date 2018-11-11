@@ -32,6 +32,12 @@
             window.screen.orientation.lock('portrait');
             showBannerAtPosition();
         }
+        else if ($('#searchModal').css('display') == 'block')
+        {
+           $('#searchModal').css('display' , 'none');
+            window.screen.orientation.lock('portrait');
+            showBannerAtPosition();
+        }
         else
         {
             $('.complete').addClass('myoverlay');
