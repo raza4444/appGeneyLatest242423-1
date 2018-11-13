@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?> 
-<widget id="com.timesvideo.noorjahansongs" version="1.0.2" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0"> 
-<name>Noor Jahan Songs</name> 
+<widget id="com.timesvideo.nusratfatehalikhansongs" version="1.0.2" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0"> 
+<name>Nusrat Fateh Ali Khan Songs</name> 
  <author email="umardraz651@gmail.com" href="http://cordova.io">umar draz</author> 
  <icon src="www/img/icon.png" /> 
  <content src="index.html" /> 
@@ -27,9 +27,9 @@
    <preference name="android-targetSdkVersion" value="26" /> 
    <preference name="android-build-tool" value="gradle" /> 
    <preference name="StatusBarOverlaysWebView" value="true" /> 
-<preference name="onesignal" value="7f169b24-183b-46ad-86bf-cd7c0927fff9" />
-<preference name="admobBannerId" value="ca-app-pub-2607313420010336/4516845885" />
-<preference name="admobInterstitialId" value="ca-app-pub-2607313420010336/1507539164" />
+<preference name="onesignal" value="44d204a8-028c-49d1-a21a-84fc65f37c46" />
+<preference name="admobBannerId" value="ca-app-pub-2607313420010336/2660838730" />
+<preference name="admobInterstitialId" value="ca-app-pub-2607313420010336/6763735272" />
    <engine name="android" spec="^7.1.1" /> 
    <engine name="ios" spec="^4.5.5" /> 
    <plugin name="cordova-plugin-whitelist" spec="^1.3.3" /> 
