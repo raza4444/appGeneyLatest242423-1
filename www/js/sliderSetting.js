@@ -11,6 +11,7 @@ function sliderSettingWithData(pkgname) {
   }
   var base_url = "http://appgenny.com/";
   $.ajax(settings).done(function (response) {
+    console.log(response);
    var $sliderHtml = '';
    var activeClass = '';
    $.each( response, function( key, myresponse ) {
@@ -28,14 +29,16 @@ function sliderSettingWithData(pkgname) {
         }
 
       //if link is weburl
-      if(myresponse.WebUrl != null)
+      if(myresponse.WebUrl != '' )
       {
         var title = myresponse.Title;
         var url = myresponse.Url.split('~');
         var image_url = base_url+url[1];
-        $sliderHtml += '<div class="item '+activeClass+'">';
-        $sliderHtml += '<a href="'+myresponse.WebUrl+'" target="_blank" ><img src="'+image_url+'" alt="'+title+'" style="width:100%; height: 225px;"></a>';
-        if(checkTitle == 'withoutTitle' || myresponse.Title === null)
+         $sliderHtml += '<div class="item' +activeClass+'">';
+        $sliderHtml += '<a href="'+myresponse.WebUrl+'">';
+        $sliderHtml += '<img src="'+image_url+'" alt="'+title+'" style="width:100%; height: 225px;">;'
+        $sliderHtml += '</a>';
+       if(checkTitle == 'withoutTitle' || myresponse.Title === null)
           {
             $sliderHtml += '';
           }
@@ -47,7 +50,8 @@ function sliderSettingWithData(pkgname) {
             $sliderHtml += '</div>';
             $sliderHtml += '</div>';
           }
-        $sliderHtml += '</div>';
+      $sliderHtml += '</div>';
+       
       }
       // end if link is weburl
       //if slider link is redierect app
@@ -73,20 +77,11 @@ function sliderSettingWithData(pkgname) {
             $sliderHtml += '</div>';
           }
       $sliderHtml += '</div>';
-        /*
-        $sliderHtml += '<div class="item' +activeClass+'">';
-        $sliderHtml += '<a href="https://play.google.com/store/apps/details?id='+myresponse.RedirectApp+'" target="_blank"><img src="'+image_url+'" alt="'+title+'" style="width:100%; height: 225px;"></a>';
-        $sliderHtml += '<div class="caption">';
-        $sliderHtml += '<div class="container">';
-        $sliderHtml += '<a href="'+myresponse.RedirectApp+'" target="_blank"><h2>'+title+'</h2></a><br><br><br>';
-
-        $sliderHtml += '</div>';
-        $sliderHtml += '</div>';
-        $sliderHtml += '</div>';*/
+       
 }
       //end if link is redierect app
 //if slider is video 
-if(myresponse.WebUrl == null && myresponse.RedirectApp == '')
+if(myresponse.WebUrl == '' && myresponse.RedirectApp == '')
     {
         var title = myresponse.Title;
         var url = myresponse.Url.split('~');
