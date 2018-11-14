@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?> 
-<widget id="com.timesvideo.mohammadrafisongs" version="1.0.2" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0"> 
-<name>Mohammad Rafi Songs</name> 
+<widget id="com.timesvideo.newhindisongs" version="1.0.2" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0"> 
+<name>New Hindi Songs</name> 
  <author email="umardraz651@gmail.com" href="http://cordova.io">umar draz</author> 
  <icon src="www/img/icon.png" /> 
  <content src="index.html" /> 
@@ -27,9 +27,9 @@
    <preference name="android-targetSdkVersion" value="26" /> 
    <preference name="android-build-tool" value="gradle" /> 
    <preference name="StatusBarOverlaysWebView" value="true" /> 
-<preference name="onesignal" value="b05eb257-01f6-4bbc-8506-92b504860b60" />
-<preference name="admobBannerId" value="ca-app-pub-2607313420010336/7153025190" />
-<preference name="admobInterstitialId" value="ca-app-pub-2607313420010336/9296930663" />
+<preference name="onesignal" value="28c65d49-4c21-4352-8491-9095d246ec01" />
+<preference name="admobBannerId" value="ca-app-pub-2607313420010336/2482210494" />
+<preference name="admobInterstitialId" value="ca-app-pub-2607313420010336/8472903770" />
    <engine name="android" spec="^7.1.1" /> 
    <engine name="ios" spec="^4.5.5" /> 
    <plugin name="cordova-plugin-whitelist" spec="^1.3.3" /> 
