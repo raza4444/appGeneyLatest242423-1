@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?> 
-<widget id="com.test.byumer" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0"> 
-<name>test App</name> 
+<widget id="com.timesvideo.gaanesuneansune" version="1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0"> 
+<name>Gaane Sune Ansune</name> 
  <author email="umardraz651@gmail.com" href="http://cordova.io">umar draz</author> 
  <icon src="www/img/icon.png" /> 
  <content src="index.html" /> 
@@ -27,9 +27,10 @@
    <preference name="android-targetSdkVersion" value="26" /> 
    <preference name="android-build-tool" value="gradle" /> 
    <preference name="StatusBarOverlaysWebView" value="true" /> 
-<preference name="onesignal" value="" />
-<preference name="admobBannerId" value="ca-app-pub-2607313420010336/7643001475" />
-<preference name="admobInterstitialId" value="ca-app-pub-2607313420010336/2217508304" />
+<preference name="onesignal" value="f74e6e90-0603-4a02-a743-84ca785272f0" />
+<preference name="admobBannerId" value="ca-app-pub-2607313420010336/1284983781" />
+<preference name="admobInterstitialId" value="ca-app-pub-2607313420010336/7591780959" />
+<preference name="admobAppId" value="ca-app-pub-2607313420010336~4917107038" />
    <engine name="android" spec="^7.1.1" /> 
    <engine name="ios" spec="^4.5.5" /> 
    <plugin name="cordova-plugin-whitelist" spec="^1.3.3" /> 
