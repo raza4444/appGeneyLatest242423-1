@@ -34,7 +34,7 @@
         }
         else if ($('#searchModal').css('display') == 'block')
         {
-           $('#searchModal').css('display' , 'none');
+            $('#searchModal').css('display' , 'none');
             window.screen.orientation.lock('portrait');
             showBannerAtPosition();
         }

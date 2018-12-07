@@ -49,7 +49,6 @@ function openVideoModel(object)
 {
 var y = localStorage.getItem("counterAds");
 var x  = 1;
-//sum += countAds;
 var sum = (x*100 + y*100) / 100;
  localStorage.setItem("counterAds",sum);
  var response = JSON.parse((localStorage.getItem("item")));
@@ -64,22 +63,21 @@ var sum = (x*100 + y*100) / 100;
   admobLimit = response[2];
   if(counterAds == admobLimit)
   {
-  	showIndustrialAd();
+  	
   	var id = $(object).attr('id');
   	localStorage.setItem("openVideoModelId",id);
   	localStorage.setItem("counterAds",'0');
+    showIndustrialAd();
   }
  else
 {
 
-prepareInterstitialAd();  
 var id = $(object).attr('id');
   openModel(id);
 }
 }
 else
 {
-prepareInterstitialAd();  
 var id = $(object).attr('id');
 openModel(id);
 }
@@ -100,7 +98,7 @@ $('#img_link').css('display','none');
 $('#video_list').css('display', 'none');
 $('.my_lazy_loader').removeClass( "hide" );
 $('.my_lazy_loader').show();
-$("#myModal").animate({width:'toggle'},100);
+$("#myModal").animate({width:'toggle'},50);
 $.ajax(settings).done(function (response) {
 if(response.Keyword != null && response.RedirectLink == false)
 	{
@@ -119,17 +117,28 @@ else
 	var limit = response.Limit;
 }
 
-if(response.IsYoutube == false){
+if(response.IsYoutube == false) {
+
 getDailymotionBySearch(keyword , limit);
+
 }
 else
-getyoutubeVideoBySearch(keyword, type , limit);
+{
+  if(keyword != '')
+  {
+    getyoutubeVideoBySearch(keyword, type , limit);  
+  }
+  else
+  {
+   if(response.PlayList == true )
+  {
+    getyoutubeVideoByplaylistSearch(response.BaseApi.Code , limit)
+  }
+  }
+
 }		
 	
-else if(response.Keyword == null && response.RedirectApp == '') 
-	{
 
 	}
- $('.my_lazy_loader').hide();
-});
+    });
 }

@@ -31,7 +31,7 @@ function GallerySLider(packegeName) {
     "Postman-Token": "7e06f881-5916-48c3-afd5-579215d9afd5"
   }
 }
-var base_url = "http://appqubz-001-site1.etempurl.com";
+var base_url = "http://appgenny.com/";
 $.ajax(settings).done(function (response) {
  // var $slidergalleryHtml = '';
  var activeClass = '';

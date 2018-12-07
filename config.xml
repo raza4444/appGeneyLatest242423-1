@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?> 
-<widget id="com.timesvideo.mohammadrafisongs" version="1.0.3" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0"> 
-<name>Mohammad Rafi Songs</name> 
+<widget id="com.timesvideo.mukeshhitsongs" version="1.0.2" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0"> 
+<name>Mukesh Hit Songs</name> 
  <author email="umardraz651@gmail.com" href="http://cordova.io">umar draz</author> 
  <icon src="www/img/icon.png" /> 
  <content src="index.html" /> 
@@ -12,6 +12,12 @@
   <allow-intent href="mailto:*" /> 
   <allow-intent href="geo:*" /> 
   <platform name="android"> 
+  <splash qualifier="port-ldpi" src="res/screens/android/drawable-port-ldpi-screen.png" />
+  <splash qualifier="port-mdpi" src="res/screens/android/drawable-port-mdpi-screen.png" />
+  <splash qualifier="port-hdpi" src="res/screens/android/drawable-port-hdpi-screen.png" />
+  <splash qualifier="port-xhdpi" src="res/screens/android/drawable-port-xhdpi-screen.png" />
+  <splash qualifier="port-xxhdpi" src="res/screens/android/drawable-port-xxhdpi-screen.png" />
+  <splash qualifier="port-xxxhdpi" src="res/screens/android/drawable-port-xxxhdpi-screen.png" />
 <resource-file src="locales/android/drawable-mdpi/ic_stat_onesignal_default.png" target="app/src/main/res/drawable-mdpi/ic_stat_onesignal_default.png" /> 
 <resource-file src="locales/android/drawable-hdpi/ic_stat_onesignal_default.png" target="app/src/main/res/drawable-hdpi/ic_stat_onesignal_default.png" /> 
 <resource-file src="locales/android/drawable-xhdpi/ic_stat_onesignal_default.png" target="app/src/main/res/drawable-xhdpi/ic_stat_onesignal_default.png" /> 
@@ -21,17 +27,29 @@
    </platform> 
   <platform name="ios"> 
  <allow-intent href="itms:* " /> 
-       <allow-intent href="itms-apps:*" />   </platform> 
+        <allow-intent href="itms-apps:*" />
+     
+</platform> 
     <preference name="android-minSdkVersion" value="15" /> 
    <preference name="android-maxSdkVersion" value="28" /> 
    <preference name="android-targetSdkVersion" value="26" /> 
    <preference name="android-build-tool" value="gradle" /> 
    <preference name="StatusBarOverlaysWebView" value="true" /> 
-<preference name="onesignal" value="b05eb257-01f6-4bbc-8506-92b504860b60" />
-<preference name="admobBannerId" value="ca-app-pub-2607313420010336/7153025190" />
-<preference name="admobInterstitialId" value="ca-app-pub-2607313420010336/9296930663" />
+<preference name="onesignal" value="a75e5afe-dbd6-486b-9c2e-15c66b553648" />
+<preference name="admobBannerId" value="ca-app-pub-2607313420010336/7643001475" />
+<preference name="admobInterstitialId" value="ca-app-pub-2607313420010336/3269367884" />
+<preference name="admobInterstitialId" value="ca-app-pub-2607313420010336/3269367884" />
+<preference name="admobInterstitialIdSeciond" value="ca-app-pub-2607313420010336/5493911869" />
+
+<preference name="admobAppId" value="ca-app-pub-2607313420010336~9812005799" />
+<preference name="SplashScreenDelay" value="4000" />
+    <preference name="SplashMaintainAspectRatio" value="true" />
+     <preference name="ShowSplashScreenSpinner" value="false"/>
+     <preference name="FadeSplashScreenDuration" value="400"/>
+     <preference name="SplashScreenBackgroundColor" value="white"/>
    <engine name="android" spec="^7.1.1" /> 
    <engine name="ios" spec="^4.5.5" /> 
+ <plugin name="cordova-plugin-splashscreen" spec="^5.0.2" />
    <plugin name="cordova-plugin-whitelist" spec="^1.3.3" /> 
   <plugin name="cordova-plugin-admobpro" spec="~2.31.6" /> 
    <plugin name="onesignal-cordova-plugin" spec="2.3.3" /> 
