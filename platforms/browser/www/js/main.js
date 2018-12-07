@@ -2,16 +2,16 @@ function mainarea()
 {
 	if(navigator.network.connection.type == Connection.NONE) {
 		StatusBar.hide();
-		$(".loader").removeClass('hide');
-		$(".loader").delay(5000).hide('slide',500,function()
-		{
+		//$(".loader").removeClass('hide');
 			window.location.href = "noconnection.html";	
 			StatusBar.show();
-		});
+	
 		
 	}
 	else
-	{	StatusBar.hide();
+	{	
+		StatusBar.hide();
+		
 		localStorage.setItem("openVideoModelId",'0');
 		localStorage.setItem("runVideoId",'0');
 		localStorage.setItem('category_id_wallpaper' , '0');
@@ -20,24 +20,18 @@ function mainarea()
 		localStorage.setItem("runVideoPlayers",'0');
 		localStorage.setItem("counterAds",'0');
 		//$('#searchModal').show();
-		cordova.getAppVersion.getPackageName(function(pkgname){
-		appSetting(pkgname);
-		});
-		$(".loader").delay(3000).hide('slide',500,function()
-		{
-       cordova.getAppVersion.getPackageName(function(pkgname){
+		//cordova.getAppVersion.getPackageName(function(pkgname){
+		appSetting('com.timesvideo.mukeshhitsongs');
+		//});
+		  // cordova.getAppVersion.getPackageName(function(pkgname){
 		var response=JSON.parse((localStorage.getItem("item")));
-		sliderSettingWithData(pkgname);
+		sliderSettingWithData('com.timesvideo.mukeshhitsongs');
 
-		getAllPost(response[0], pkgname);
-		featuredAppModel(pkgname);
-		});
-		});
-		setTimeout(
-			function() {
-				StatusBar.show();
-				$('.my_lazy_loader').removeClass( "hide" );
-			}, 3500);
+		getAllPost(response[0], 'com.timesvideo.mukeshhitsongs');
+		featuredAppModel('com.timesvideo.mukeshhitsongs');
+		//});
+		StatusBar.show();
+		$('.my_lazy_loader').removeClass( "hide" );
 	     setInterval(function(){ ajaxContinuesly();  }, 6000);
 }
 }

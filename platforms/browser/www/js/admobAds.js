@@ -64,6 +64,7 @@ function initAd(){
   if (interAd == '1') {
    // alert('induestrial true');
     localStorage.setItem("interAdshown",'0');
+    prepareInterstitialAd();
     //video modal
     var openVideoModelId =  localStorage.getItem("openVideoModelId");
 //run video player
@@ -119,39 +120,23 @@ function initAd(){
 
 
        }
-     prepareInterstitialAd();
-
   }
     
     });
     $(document).on('onAdPresent', function(e){
+
     });
     $(document).on('onAdLeaveApp', function(e){
    });
     
-    $(document).on('onAdDismiss', function(e){
-      /*if(typeof e.originalEvent !== 'undefined') e = e.originalEvent;
-      var data = e.data || e;
-      if(data.adType === 'interstitial') {
-     // alert('onAdDismiss');
-      var openVideoModelId =  localStorage.getItem("openVideoModelId");
-      if(openVideoModelId != '' || openVideoModelId != null)
-       {
-        openModel(openVideoModelId);
-        localStorage.setItem("openVideoModelId",'');
-       }
-      }
-       else if(data.adType === 'rewardvideo') {
-        $('#h3_video').text('Rewarded Video');
-        $('#btn_showvideo').prop('disabled', true);
-      }*/
-
- var interAd =   localStorage.getItem("interAdshown");
+  $(document).on('onAdDismiss', function(e){
+    var interAd =   localStorage.getItem("interAdshown");
   if (interAd == '1') {
    // alert('induestrial true');
     localStorage.setItem("interAdshown",'0');
     //video modal
     var openVideoModelId =  localStorage.getItem("openVideoModelId");
+
 //run video player
     var runVideoId = localStorage.getItem("runVideoId");
     var runVideoplatform = localStorage.getItem("runVideoplatform");
@@ -206,7 +191,6 @@ function initAd(){
 
        }
 
-prepareInterstitialAd(); 
   }
   });
 $(document).on('resume', function(){
@@ -272,7 +256,6 @@ $(document).on('resume', function(){
 
        }
 
-prepareInterstitialAd(); 
   }
  
     });
@@ -308,7 +291,7 @@ prepareInterstitialAd();
   }
   function showBannerAtPosition(){
     if(AdMob) AdMob.showBanner(AdMob.AD_POSITION.BOTTOM_CENTER);
-    prepareInterstitialAd();
+   // prepareInterstitialAd();
   }
   
   function showIndustrialAd()
@@ -316,7 +299,29 @@ prepareInterstitialAd();
     localStorage.setItem("interAdshown",'1');
     AdMob.showInterstitial();
     prepareInterstitialAd();
+    createAndShowBannerAd();
   }
+  function showIndustrialAdForYoutubeVIdeoPlayer()
+  {
+    localStorage.setItem("interAdshown",'1');
+    AdMob.showInterstitial();
+    prepareInterstitialAd();
+  }
+  function createNBannerAd() {
+      AdMob.createBanner({
+      adId: admobid.banner,
+      position: AdMob.AD_POSITION.BOTTOM_CENTER,
+      isTesting: false, // TODO: remove this line when release
+      overlap: false,
+      offsetTopBar: false,
+      bgColor: ' '
+      }); 
+  }
+  function createAndShowBannerAd()
+  {
+    createNBannerAd();
+    showBannerAtPosition();
+ }
 
   function  prepareInterstitialAd()
   {
@@ -326,6 +331,7 @@ prepareInterstitialAd();
     isTesting: false // TODO: remove this line when release
   });
   }
+
   function initAdmobWithoutBanner() {
     AdMob.hideBanner();
   }
@@ -335,3 +341,5 @@ prepareInterstitialAd();
   } else {
     onDeviceReady();
   }
+
+

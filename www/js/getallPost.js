@@ -200,8 +200,14 @@ if (myresponse.Type == 'WebUrl') {
 });
     $('#main_content').html(html);
 
-    $('.my_lazy_loader').hide();
-    $(".complete").removeClass( "hide" );
+   
+  setTimeout(
+      function() {
+       $('.my_lazy_loader').hide();
+        $(".complete").removeClass( "hide" );  
+      }, 6000);
+
+   
   })
 
 }

@@ -47,6 +47,10 @@ $.ajax(settings).done(function (response)
   else if(row == 3) {
  responseArray.push('s4');
   }
+  else if(row == 4) {
+ responseArray.push('s3');
+  
+  }
   else if(row != 1 || row != 2 || row != 3)
   {
     responseArray.push('s6'); 
@@ -205,7 +209,7 @@ var settings = {
     "Postman-Token": "5f729608-f77d-4570-978d-eb6d0ba352b0"
   }
 }
-var base_url = "http://appqubz-001-site1.etempurl.com/";
+var base_url = "http://appgenny.com/";
 var featurdAppHtml = '';
 $.ajax(settings).done(function (response) {
    $.each( response, function( key, myresponse ) {

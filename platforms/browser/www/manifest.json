@@ -1,9 +1,9 @@
 {
   "background_color": "#FFF",
   "display": "standalone",
-  "name": "Mohammad Rafi Songs",
-  "short_name": "Mohammad Rafi Songs",
-  "version": "com.test.byumer",
+  "name": "Mukesh Hit Songs",
+  "short_name": "Mukesh Hit Songs",
+  "version": "com.timesvideo.mukeshhitsongs",
   "author": "umar draz",
   "icons": [
     {

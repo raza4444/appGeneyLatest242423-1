@@ -11,7 +11,7 @@ function sliderSettingWithData(pkgname) {
   }
   var base_url = "http://appgenny.com/";
   $.ajax(settings).done(function (response) {
-    console.log(response);
+    console.log(response , 'slider');
    var $sliderHtml = '';
    var activeClass = '';
    $.each( response, function( key, myresponse ) {
@@ -34,7 +34,7 @@ function sliderSettingWithData(pkgname) {
         var title = myresponse.Title;
         var url = myresponse.Url.split('~');
         var image_url = base_url+url[1];
-         $sliderHtml += '<div class="item' +activeClass+'">';
+         $sliderHtml += '<div class="item weburl  ' + activeClass+'">';
         $sliderHtml += '<a href="'+myresponse.WebUrl+'">';
         $sliderHtml += '<img src="'+image_url+'" alt="'+title+'" style="width:100%; height: 225px;">;'
         $sliderHtml += '</a>';
@@ -60,7 +60,7 @@ function sliderSettingWithData(pkgname) {
         var title = myresponse.Title;
         var url = myresponse.Url.split('~');
         var image_url = base_url+url[1];
-        $sliderHtml += '<div class="item ' +activeClass+'">';
+        $sliderHtml += '<div class="item redierectApp ' + activeClass+'">';
         $sliderHtml += '<a href="https://play.google.com/store/apps/details?id='+myresponse.RedirectApp+'" >';
         $sliderHtml += '<img src="'+image_url+'" alt="'+title+'" style="width:100%; height: 225px;">;'
         $sliderHtml += '</a>';
@@ -86,7 +86,7 @@ if(myresponse.WebUrl == '' && myresponse.RedirectApp == '')
         var title = myresponse.Title;
         var url = myresponse.Url.split('~');
         var image_url = base_url+url[1];
-        $sliderHtml += '<div class="item slides '+activeClass+'">';
+        $sliderHtml += '<div class="item  Video'+ activeClass+'">';
         $sliderHtml += '<a data-toggle="modal" id="'+myresponse.Id+'" onclick="openVideoModel(this)"><img src="'+image_url+'" alt="'+title+'" style="width:100%; height: 225px;"></a>';
         if(checkTitle == 'withoutTitle' || myresponse.Title === null)
           {

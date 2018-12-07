@@ -1,10 +1,13 @@
     $('.searchbar').keydown(function (e) {
     if (e.keyCode == 13) {
+
+    $("#searchModal").animate({width:'toggle'},50);	
 	var searchValue = $('.searchbar').val();
 	
 	if(searchValue != '' && searchValue != null)
 	{
-	
+$(".searchbar").blur();	
+$("#searchModal").animate({width:'toggle'},400);
  $('.search_result_h3').html('<h4 style="text-align:center;">Search Result...</h4>');
 $('#search_video_list').css('display','none');	
  //$("#searchModal").animate({width:'toggle'},100);
@@ -30,10 +33,9 @@ else{
 
     $('#search_btn').click(function(){
     		
-    		$("#searchModal").animate({width:'toggle'},100);
+    		$("#searchModal").animate({width:'toggle'},400);
     		$('#search_video_list').css('display','none');
     		$('.searchbar').focus();
-
 
 });
 
