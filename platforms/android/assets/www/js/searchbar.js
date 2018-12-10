@@ -1,28 +1,24 @@
     $('.searchbar').keydown(function (e) {
     if (e.keyCode == 13) {
 
-    $("#searchModal").animate({width:'toggle'},50);	
+    	
 	var searchValue = $('.searchbar').val();
 	
 	if(searchValue != '' && searchValue != null)
 	{
+$("#searchModal").css('height' , '100%');
+$("#searchModal").animate({width:'toggle'},50);
 $(".searchbar").blur();	
-$("#searchModal").animate({width:'toggle'},400);
+//$("#searchModal").animate({width:'toggle'},50);
  $('.search_result_h3').html('<h4 style="text-align:center;">Search Result...</h4>');
 $('#search_video_list').css('display','none');	
- //$("#searchModal").animate({width:'toggle'},100);
+
+ $("#searchModal").animate({width:'toggle'},100);
  $('.my_lazy_loader').css('display','block');
  $('.my_lazy_loader').show();
- getyoutubeVideo(searchValue, 'video' , '35');
-/* $(".my_lazy_loader").delay(2000).hide(function()
-{
-	getyoutubeVideoBySearch(searchValue, 'video' , '35');
 
-	$(this).fadeOut("slow");
-	$(this).hide();
-	$('.searchbar').val('');
-	$('.search_result_h3').css('display','none');
-});*/
+	
+ getyoutubeVideo(searchValue, 'video' , '35');
 }
 else{
 	$('.searchbar').focus();
@@ -33,7 +29,8 @@ else{
 
     $('#search_btn').click(function(){
     		
-    		$("#searchModal").animate({width:'toggle'},400);
+    		$("#searchModal").animate({width:'toggle'},20);
+            $("#searchModal").css('height' , '50px');
     		$('#search_video_list').css('display','none');
     		$('.searchbar').focus();
 
@@ -127,6 +124,7 @@ function getyoutubeVideo(keyword, type , limitVideo) {
         	$('.my_lazy_loader').css('display','none');
             $('.my_lazy_loader').hide();
             $('.search_result_h3').html('');
+
         	//$('#img_link').css('display','none');
 
 

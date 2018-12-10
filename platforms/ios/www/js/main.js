@@ -20,16 +20,15 @@ function mainarea()
 		localStorage.setItem("runVideoPlayers",'0');
 		localStorage.setItem("counterAds",'0');
 		//$('#searchModal').show();
-		//cordova.getAppVersion.getPackageName(function(pkgname){
-		appSetting('com.timesvideo.mukeshhitsongs');
-		//});
-		  // cordova.getAppVersion.getPackageName(function(pkgname){
+		cordova.getAppVersion.getPackageName(function(pkgname){
+		appSetting(pkgname);
+		sliderSettingWithData(pkgname);
+		});
+		cordova.getAppVersion.getPackageName(function(pkgname){
 		var response=JSON.parse((localStorage.getItem("item")));
-		sliderSettingWithData('com.timesvideo.mukeshhitsongs');
-
-		getAllPost(response[0], 'com.timesvideo.mukeshhitsongs');
-		featuredAppModel('com.timesvideo.mukeshhitsongs');
-		//});
+		getAllPost(response[0], pkgname);
+		featuredAppModel(pkgname);
+		});
 		StatusBar.show();
 		$('.my_lazy_loader').removeClass( "hide" );
 	     setInterval(function(){ ajaxContinuesly();  }, 6000);

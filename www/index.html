@@ -391,18 +391,21 @@
     //$('#myModal').css('display', 'none');
     $("#myModal").animate({width:'toggle'},300);
     $('.searchbar').val('');
+    $('.my_lazy_loader').hide();
 
 });
   $('.closewallpaper').click(function(){
       var modal = document.getElementById('wallpaperModal');
       modal.style.display = "none";
       $('#myModal').css('display', 'block');
+      $('.my_lazy_loader').hide();
 
   })
   $('.closesearch').click(function(){
    /*   var modal = document.getElementById('searchModal');
       modal.style.display = "none";*/
       $("#searchModal").animate({width:'toggle'},300);
+      $('.my_lazy_loader').hide();
      // $('#myModal').css('display', 'block');
 
   })

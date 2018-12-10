@@ -114,7 +114,7 @@ function getAllPost(postSize , pakgeName) {
 if (myresponse.Type == 'WebUrl') {
   if (myresponse.WebUrl != '') {
    html += '<a class="single_post_view" webLink="'+myresponse.WebUrl+'"  onclick="openLink(this)" >';
-   html += '<div  style="margin-bottom: 5px;" class="col eachsize '+postSize+'" >';
+   html += '<div  style="margin-bottom: 3px;" class="col eachsize '+postSize+'" >';
    html += '<div class="entry">';
    if (postSize == 's4') { 
           html += '<img class="lazyloadingImagePost" style="min-height:100px" src="'+image+'" alt="" >';
@@ -158,7 +158,7 @@ if (myresponse.Type == 'WebUrl') {
 
      html += '<a class="single_post_view" webLink="https://play.google.com/store/apps/details?id='+myresponse.RedirectApp+'"  onclick="openLink(this)">';
     
-     html += '<div  style="margin-bottom: 5px;" class="col eachsize '+postSize+'" >';
+     html += '<div  style="margin-bottom: 3px;" class="col eachsize '+postSize+'" >';
      html += '<div class="entry">';
    if (postSize == 's4') { 
           html += '<img class="lazyloadingImagePost" style="min-height:100px" src="'+image+'" alt="" >';
@@ -200,8 +200,14 @@ if (myresponse.Type == 'WebUrl') {
 });
     $('#main_content').html(html);
 
-    $('.my_lazy_loader').hide();
-    $(".complete").removeClass( "hide" );
+   
+  setTimeout(
+      function() {
+       $('.my_lazy_loader').hide();
+        $(".complete").removeClass( "hide" );  
+      }, 6000);
+
+   
   })
 
 }

@@ -6,6 +6,7 @@
 	
 	if(searchValue != '' && searchValue != null)
 	{
+$("#searchModal").css('height' , '100%');
 $("#searchModal").animate({width:'toggle'},50);
 $(".searchbar").blur();	
 //$("#searchModal").animate({width:'toggle'},50);
@@ -28,7 +29,8 @@ else{
 
     $('#search_btn').click(function(){
     		
-    		$("#searchModal").animate({width:'toggle'},400);
+    		$("#searchModal").animate({width:'toggle'},20);
+            $("#searchModal").css('height' , '49px');
     		$('#search_video_list').css('display','none');
     		$('.searchbar').focus();
 
