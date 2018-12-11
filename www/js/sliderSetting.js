@@ -29,7 +29,7 @@ function sliderSettingWithData(pkgname) {
         }
 
       //if link is weburl
-      if(myresponse.WebUrl != '' )
+      if(myresponse.WebUrl != null )
       {
         var title = myresponse.Title;
         var url = myresponse.Url.split('~');
