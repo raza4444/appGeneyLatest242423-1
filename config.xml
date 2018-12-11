@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?> 
-<widget id="com.timesvideo.filmigaane" version="1.0.3" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0"> 
-<name>Filmi Gaane</name> 
+<widget id="com.timesvideo.puranehindigane" version="1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0"> 
+<name>Purane Hindi Gane</name> 
  <author email="umardraz651@gmail.com" href="http://cordova.io">umar draz</author> 
  <icon src="www/img/icon.png" /> 
  <content src="index.html" /> 
@@ -33,10 +33,10 @@
    <preference name="android-targetSdkVersion" value="26" /> 
    <preference name="android-build-tool" value="gradle" /> 
    <preference name="StatusBarOverlaysWebView" value="true" /> 
-<preference name="onesignal" value="163f8496-834b-4c96-b952-fdb7e85f0d59" />
-<preference name="admobBannerId" value="ca-app-pub-2607313420010336/5371692162" />
-<preference name="admobInterstitialId" value="ca-app-pub-2607313420010336/2362385448" />
-<preference name="admobAppId" value="ca-app-pub-2607313420010336~8189427197" />
+<preference name="onesignal" value="67e08074-3b5b-43a0-b0a7-f83655d58ab9" />
+<preference name="admobBannerId" value="ca-app-pub-2607313420010336/8091857298" />
+<preference name="admobInterstitialId" value="ca-app-pub-2607313420010336/2264815549" />
+<preference name="admobAppId" value="ca-app-pub-2607313420010336~4535755669" />
 <preference name="SplashScreenDelay" value="4000" /> 
 <preference name="SplashMaintainAspectRatio" value="true" /> 
 <preference name="ShowSplashScreenSpinner" value="false" /> 
