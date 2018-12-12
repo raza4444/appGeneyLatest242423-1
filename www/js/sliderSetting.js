@@ -29,7 +29,7 @@ function sliderSettingWithData(pkgname) {
         }
 
       //if link is weburl
-      if(myresponse.WebUrl != null )
+      if(myresponse.WebUrl !== null &&  myresponse.WebUrl !== "")
       {
         var title = myresponse.Title;
         var url = myresponse.Url.split('~');
@@ -55,7 +55,7 @@ function sliderSettingWithData(pkgname) {
       }
       // end if link is weburl
       //if slider link is redierect app
-      if(myresponse.RedirectApp != '')
+      if(myresponse.RedirectApp !== null && myresponse.RedirectApp !== '')
       {
         var title = myresponse.Title;
         var url = myresponse.Url.split('~');
