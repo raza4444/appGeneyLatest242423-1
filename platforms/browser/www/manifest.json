@@ -1,9 +1,9 @@
 {
   "background_color": "#FFF",
   "display": "standalone",
-  "name": "Mukesh Hit Songs",
-  "short_name": "Mukesh Hit Songs",
-  "version": "com.timesvideo.mukeshhitsongs",
+  "name": "Sadabahar Hindi Songs",
+  "short_name": "Sadabahar Hindi Songs",
+  "version": "com.timevideos.oldhindisongs",
   "author": "umar draz",
   "icons": [
     {

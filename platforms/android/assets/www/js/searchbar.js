@@ -30,7 +30,7 @@ else{
     $('#search_btn').click(function(){
     		
     		$("#searchModal").animate({width:'toggle'},20);
-            $("#searchModal").css('height' , '50px');
+            $("#searchModal").css('height' , '49px');
     		$('#search_video_list').css('display','none');
     		$('.searchbar').focus();
 

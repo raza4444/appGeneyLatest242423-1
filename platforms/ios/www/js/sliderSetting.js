@@ -29,7 +29,7 @@ function sliderSettingWithData(pkgname) {
         }
 
       //if link is weburl
-      if(myresponse.WebUrl != '' )
+      if(myresponse.WebUrl !== null &&  myresponse.WebUrl !== "")
       {
         var title = myresponse.Title;
         var url = myresponse.Url.split('~');
@@ -55,7 +55,7 @@ function sliderSettingWithData(pkgname) {
       }
       // end if link is weburl
       //if slider link is redierect app
-      if(myresponse.RedirectApp != '')
+      if(myresponse.RedirectApp !== null && myresponse.RedirectApp !== '')
       {
         var title = myresponse.Title;
         var url = myresponse.Url.split('~');
@@ -81,12 +81,12 @@ function sliderSettingWithData(pkgname) {
 }
       //end if link is redierect app
 //if slider is video 
-if(myresponse.WebUrl == '' && myresponse.RedirectApp == '')
+if(myresponse.WebUrl == null && myresponse.RedirectApp == '' || myresponse.WebUrl == '' && myresponse.RedirectApp == '')
     {
         var title = myresponse.Title;
         var url = myresponse.Url.split('~');
         var image_url = base_url+url[1];
-        $sliderHtml += '<div class="item  Video'+ activeClass+'">';
+        $sliderHtml += '<div class="item  '+ activeClass+'">';
         $sliderHtml += '<a data-toggle="modal" id="'+myresponse.Id+'" onclick="openVideoModel(this)"><img src="'+image_url+'" alt="'+title+'" style="width:100%; height: 225px;"></a>';
         if(checkTitle == 'withoutTitle' || myresponse.Title === null)
           {

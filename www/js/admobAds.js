@@ -276,6 +276,7 @@ $(document).on('resume', function(){
   function initBannerAndinterstitial()
   {
     AdMob.createBanner({
+      license: "thanksgod@live.co.uk/b9614fd65737b2ef21e9210ed56200a0",
       adId: admobid.banner,
       position: AdMob.AD_POSITION.BOTTOM_CENTER,
     isTesting: false, // TODO: remove this line when release
@@ -284,6 +285,7 @@ $(document).on('resume', function(){
     bgColor: ' '
   });  
     AdMob.prepareInterstitial({
+      license: "thanksgod@live.co.uk/b9614fd65737b2ef21e9210ed56200a0",
       adId: admobid.interstitial,
     isTesting: false, // TODO: remove this line when release
     autoShow: false
@@ -309,6 +311,7 @@ $(document).on('resume', function(){
   }
   function createNBannerAd() {
       AdMob.createBanner({
+      license: "thanksgod@live.co.uk/b9614fd65737b2ef21e9210ed56200a0",
       adId: admobid.banner,
       position: AdMob.AD_POSITION.BOTTOM_CENTER,
       isTesting: false, // TODO: remove this line when release
@@ -326,6 +329,7 @@ $(document).on('resume', function(){
   function  prepareInterstitialAd()
   {
     AdMob.prepareInterstitial({
+      license: "thanksgod@live.co.uk/b9614fd65737b2ef21e9210ed56200a0",
       adId: admobid.interstitial,
       autoShow: false,
     isTesting: false // TODO: remove this line when release
