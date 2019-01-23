@@ -34,9 +34,10 @@
    <preference name="android-build-tool" value="gradle" /> 
    <preference name="StatusBarOverlaysWebView" value="true" /> 
 <preference name="onesignal" value="edf409cd-6cab-4040-b1e3-2f91a39b90db" />
-<preference name="admobBannerId" value="ca-app-pub-3756352465808334/6687376289" />
-<preference name="admobInterstitialId" value="ca-app-pub-3756352465808334/3144452216" />
-<preference name="admobAppId" value="ca-app-pub-8633669327040391~8693001170" />
+<preference name="admobBannerId" value="ca-app-pub-3756352465808334/2808638153" />
+<preference name="admobInterstitialId" value="ca-app-pub-3756352465808334/6173168095" />
+<preference name="admobAppId" value="
+ca-app-pub-3756352465808334~9757189883" />
 <preference name="SplashScreenDelay" value="4000" /> 
 <preference name="SplashMaintainAspectRatio" value="true" /> 
 <preference name="ShowSplashScreenSpinner" value="false" /> 
