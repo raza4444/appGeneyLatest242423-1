@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?> 
-<widget id="com.timevideos.latamangeshkarandmohammadrafisong" version="1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0"> 
-<name>Lata Mangeshkar And Mohammad Rafi Songs</name> 
+<widget id="com.timevideos.gulamaligazal " version="1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0"> 
+<name>Gulam Ali Gazal </name> 
  <author email="umardraz651@gmail.com" href="http://cordova.io">umar draz</author> 
  <icon src="www/img/icon.png" /> 
  <content src="index.html" /> 
@@ -33,10 +33,10 @@
    <preference name="android-targetSdkVersion" value="26" /> 
    <preference name="android-build-tool" value="gradle" /> 
    <preference name="StatusBarOverlaysWebView" value="true" /> 
-<preference name="onesignal" value="82c68bb6-bfc8-48a3-876e-0829a7d606b9" />
-<preference name="admobBannerId" value="ca-app-pub-3489810328478410/7525906464" />
-<preference name="admobInterstitialId" value="ca-app-pub-3489810328478410/3011946388" />
-<preference name="admobAppId" value="ca-app-pub-8633669327040391~3440171855" />
+<preference name="onesignal" value="f872eb70-7814-48d1-9695-3897178a719c" />
+<preference name="admobBannerId" value="ca-app-pub-8633669327040391/8867752188" />
+<preference name="admobInterstitialId" value="ca-app-pub-8633669327040391/9797690474" />
+<preference name="admobAppId" value="ca-app-pub-8633669327040391~6808565058" />
 <preference name="SplashScreenDelay" value="4000" /> 
 <preference name="SplashMaintainAspectRatio" value="true" /> 
 <preference name="ShowSplashScreenSpinner" value="false" /> 
