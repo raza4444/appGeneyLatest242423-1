@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?> 
-<widget id="com.musictechno.latamangeshkarhitsongs" version="1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0"> 
-<name>Lata Mangeshkar Hit Songs</name> 
+<widget id="com.musictechno.oldhindisongs" version="1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0"> 
+<name>Old Hindi Songs [music tech]</name> 
  <author email="umardraz651@gmail.com" href="http://cordova.io">umar draz</author> 
  <icon src="www/img/icon.png" /> 
  <content src="index.html" /> 
@@ -33,10 +33,10 @@
    <preference name="android-targetSdkVersion" value="26" /> 
    <preference name="android-build-tool" value="gradle" /> 
    <preference name="StatusBarOverlaysWebView" value="true" /> 
-<preference name="onesignal" value="e1a95680-e790-4ce8-aca4-46fb3c5a3b55" />
-<preference name="admobBannerId" value="ca-app-pub-3489810328478410/9385539196" />
-<preference name="admobInterstitialId" value="ca-app-pub-3489810328478410/4159641983" />
-<preference name="admobAppId" value="ca-app-pub-3489810328478410~3231194387" />
+<preference name="onesignal" value="45f35a35-2e78-41aa-9ac4-3cdf7294c314" />
+<preference name="admobBannerId" value="ca-app-pub-3489810328478410/4432735036" />
+<preference name="admobInterstitialId" value="ca-app-pub-3489810328478410/7082292562" />
+<preference name="admobAppId" value="ca-app-pub-3489810328478410~1056596800" />
 <preference name="SplashScreenDelay" value="4000" /> 
 <preference name="SplashMaintainAspectRatio" value="true" /> 
 <preference name="ShowSplashScreenSpinner" value="false" /> 
