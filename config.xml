@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?> 
-<widget id="com.timevideos.sadabaharhindisong" version="1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0"> 
-<name>Sadabahar Hindi Songs [Times]</name> 
+<widget id="com.timesvideo.anuradhapaudwalsongs" version="1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0"> 
+<name>Anuradha Paudwal Songs	 [Times]</name> 
  <author email="umardraz651@gmail.com" href="http://cordova.io">umar draz</author> 
  <icon src="www/img/icon.png" /> 
  <content src="index.html" /> 
@@ -33,10 +33,10 @@
    <preference name="android-targetSdkVersion" value="26" /> 
    <preference name="android-build-tool" value="gradle" /> 
    <preference name="StatusBarOverlaysWebView" value="true" /> 
-<preference name="onesignal" value="18a5fb3d-4c06-490e-8b67-5120d92fd870" />
-<preference name="admobBannerId" value="ca-app-pub-8633669327040391/2580991495" />
-<preference name="admobInterstitialId" value="ca-app-pub-8633669327040391/5106727265" />
-<preference name="admobAppId" value="ca-app-pub-8633669327040391~9337971537" />
+<preference name="onesignal" value="b54251a5-d0c8-4a82-b0e5-a0beeaced60e" />
+<preference name="admobBannerId" value="ca-app-pub-8633669327040391/6196818782" />
+<preference name="admobInterstitialId" value="ca-app-pub-8633669327040391/9916571944" />
+<preference name="admobAppId" value="ca-app-pub-8633669327040391~3981718980" />
 <preference name="SplashScreenDelay" value="4000" /> 
 <preference name="SplashMaintainAspectRatio" value="true" /> 
 <preference name="ShowSplashScreenSpinner" value="false" /> 
