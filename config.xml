@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?> 
-<widget id="com.musictechno.lataandrafioldsongs" version="1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0"> 
-<name>Lata And Rafi Old Songs [Techno]</name> 
+<widget id="com.musictechno.filmigaanesuneansune" version="1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0"> 
+<name>Gaane Sune Ansune [Techno]</name> 
  <author email="umardraz651@gmail.com" href="http://cordova.io">umar draz</author> 
  <icon src="www/img/icon.png" /> 
  <content src="index.html" /> 
@@ -33,10 +33,10 @@
    <preference name="android-targetSdkVersion" value="26" /> 
    <preference name="android-build-tool" value="gradle" /> 
    <preference name="StatusBarOverlaysWebView" value="true" /> 
-<preference name="onesignal" value="7de063db-4172-4640-8817-7a231730e3de" />
-<preference name="admobBannerId" value="ca-app-pub-3489810328478410/2524494631" />
-<preference name="admobInterstitialId" value="ca-app-pub-3489810328478410/3179579688" />
-<preference name="admobAppId" value="ca-app-pub-3489810328478410~7421598099" />
+<preference name="onesignal" value="58db3ca8-2874-4e30-bbea-d745e9b3c869" />
+<preference name="admobBannerId" value="ca-app-pub-3489810328478410/8061053461" />
+<preference name="admobInterstitialId" value="ca-app-pub-3489810328478410/5076986848" />
+<preference name="admobAppId" value="ca-app-pub-3489810328478410~4338620246" />
 <preference name="SplashScreenDelay" value="4000" /> 
 <preference name="SplashMaintainAspectRatio" value="true" /> 
 <preference name="ShowSplashScreenSpinner" value="false" /> 
