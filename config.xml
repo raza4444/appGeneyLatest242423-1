@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?> 
-<widget id="com.musictechno.sadabaharhindisongs" version="1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0"> 
-<name>Sadabahar Hindi Songs [Techno]</name> 
+<widget id="com.musictechno.sadabahargane" version="1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0"> 
+<name>Sadabahar Gane [Techno]</name> 
  <author email="umardraz651@gmail.com" href="http://cordova.io">umar draz</author> 
  <icon src="www/img/icon.png" /> 
  <content src="index.html" /> 
@@ -33,10 +33,10 @@
    <preference name="android-targetSdkVersion" value="26" /> 
    <preference name="android-build-tool" value="gradle" /> 
    <preference name="StatusBarOverlaysWebView" value="true" /> 
-<preference name="onesignal" value="4fe40ce4-b01c-4388-98ff-cabfcff30804" />
-<preference name="admobBannerId" value="ca-app-pub-3489810328478410/6077371034" />
-<preference name="admobInterstitialId" value="ca-app-pub-3489810328478410/6077371034" />
-<preference name="admobAppId" value="ca-app-pub-3489810328478410~1166512052" />
+<preference name="onesignal" value="576af00c-d026-41e4-b671-acc24630e8d9" />
+<preference name="admobBannerId" value="ca-app-pub-3489810328478410/2181879122" />
+<preference name="admobInterstitialId" value="ca-app-pub-3489810328478410/6557427774" />
+<preference name="admobAppId" value="ca-app-pub-3489810328478410~3878104178" />
 <preference name="SplashScreenDelay" value="4000" /> 
 <preference name="SplashMaintainAspectRatio" value="true" /> 
 <preference name="ShowSplashScreenSpinner" value="false" /> 
