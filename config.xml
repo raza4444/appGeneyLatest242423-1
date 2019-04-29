@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?> 
-<widget id="com.musictechno.nusratfetehalikhansongs" version="1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0"> 
-<name>Nusrat Feteh Ali Khan Qawali and Songs [Techno]</name> 
+<widget id="com.puretunes.oldhindisongs" version="1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0"> 
+<name>Old Hindi Songs [Pure]</name> 
  <author email="umardraz651@gmail.com" href="http://cordova.io">umar draz</author> 
  <icon src="www/img/icon.png" /> 
  <content src="index.html" /> 
@@ -33,10 +33,10 @@
    <preference name="android-targetSdkVersion" value="26" /> 
    <preference name="android-build-tool" value="gradle" /> 
    <preference name="StatusBarOverlaysWebView" value="true" /> 
-<preference name="onesignal" value="0b838136-396e-4b4c-b039-eeed3edbb90c" />
-<preference name="admobBannerId" value="ca-app-pub-3489810328478410/4327500623" />
-<preference name="admobInterstitialId" value="ca-app-pub-3489810328478410/2347849329" />
-<preference name="admobAppId" value="ca-app-pub-3489810328478410~2855471001" />
+<preference name="onesignal" value="f3049893-8412-4d8b-9cca-11ab556379b4" />
+<preference name="admobBannerId" value="ca-app-pub-7578641397672114/3460500883" />
+<preference name="admobInterstitialId" value="ca-app-pub-7578641397672114/5511949155" />
+<preference name="admobAppId" value="ca-app-pub-7578641397672114~3652072570" />
 <preference name="SplashScreenDelay" value="4000" /> 
 <preference name="SplashMaintainAspectRatio" value="true" /> 
 <preference name="ShowSplashScreenSpinner" value="false" /> 
