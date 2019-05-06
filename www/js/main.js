@@ -11,7 +11,6 @@ function mainarea()
 	else
 	{	
 		StatusBar.hide();
-		
 		localStorage.setItem("openVideoModelId",'0');
 		localStorage.setItem("runVideoId",'0');
 		localStorage.setItem('category_id_wallpaper' , '0');
@@ -19,19 +18,16 @@ function mainarea()
 		localStorage.setItem("interAdshown",'0');
 		localStorage.setItem("runVideoPlayers",'0');
 		localStorage.setItem("counterAds",'0');
-		//$('#searchModal').show();
-		cordova.getAppVersion.getPackageName(function(pkgname){
-		appSetting(pkgname);
-		sliderSettingWithData(pkgname);
-		});
-		cordova.getAppVersion.getPackageName(function(pkgname){
-		var response=JSON.parse((localStorage.getItem("item")));
-		getAllPost(response[0], pkgname);
-		featuredAppModel(pkgname);
-		});
+		
+
+		//all function load
+		cordova.getAppVersion.getPackageName(function(pkgname) {
+		functionService.getallFunctions(pkgname);
+	    });
+		//allfunctions load
 		StatusBar.show();
 		$('.my_lazy_loader').removeClass( "hide" );
-	     setInterval(function(){ ajaxContinuesly();  }, 6000);
+	     // setInterval(function(){ ajaxContinuesly();  }, 6000);
 }
 }
 
@@ -53,12 +49,9 @@ function ajaxContinuesly()
 	}
 	else 
 	{
-		cordova.getAppVersion.getPackageName(function(pkgname){
-			var response=JSON.parse((localStorage.getItem("item")));
-			appSettingInterval(pkgname);
-		//sliderSettingWithData(pkgname);
-		getAllPost(response[0],pkgname);
-		featuredAppModel(pkgname);
+			cordova.getAppVersion.getPackageName(function(pkgname) {
+		functionService.functionrequestduringIntervel();
 	});
+		
 	}
 }
