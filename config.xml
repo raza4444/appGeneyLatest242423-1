@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?> 
-<widget id="com.puretunes.hindioldsongs" version="1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0"> 
-<name>90s Hindi Songs  PT</name> 
+<widget id="com.musictechno.jagjitsinghsuperhitghazal" version="1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0"> 
+<name>Jagjit Singh Superhit Ghazal  MT</name> 
  <author email="umardraz651@gmail.com" href="http://cordova.io">umar draz</author> 
  <icon src="www/img/icon.png" /> 
  <content src="index.html" /> 
@@ -33,11 +33,11 @@
 <preference name="android-targetSdkVersion" value="26" /> 
 <preference name="android-build-tool" value="gradle" /> 
 <preference name="StatusBarOverlaysWebView" value="true" /> 
-<preference name="postRows" value="3" />  
-<preference name="onesignal" value="a53a1456-5bce-41cf-8802-52c1dc3aa9b7" />
-<preference name="admobBannerId" value="ca-app-pub-8918161242662336/2773655462" />
-<preference name="admobInterstitialId" value="ca-app-pub-8918161242662336/9147492122" />
-<preference name="admobAppId" value="ca-app-pub-8918161242662336~5249088641" />
+<preference name="postRows" value="4" />  
+<preference name="onesignal" value="6ddfb801-88d6-4ac2-9ef4-627a5f927f02" />
+<preference name="admobBannerId" value="ca-app-pub-3489810328478410/8588625909" />
+<preference name="admobInterstitialId" value="ca-app-pub-3489810328478410/4649380896" />
+<preference name="admobAppId" value="ca-app-pub-3489810328478410~2462201259" />
 <preference name="SplashScreenDelay" value="4000" /> 
 <preference name="SplashMaintainAspectRatio" value="true" /> 
 <preference name="ShowSplashScreenSpinner" value="false" /> 
