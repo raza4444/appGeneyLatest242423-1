@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?> 
-<widget id="com.wexet.kishorekumarhitsongs" version="1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0"> 
-<name>Kishore Kumar Hit Songs  WT</name> 
+<widget id="com.musictechno.videosong" version="1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0"> 
+<name>Indian Songs  MT</name> 
  <author email="umardraz651@gmail.com" href="http://cordova.io">umar draz</author> 
  <icon src="www/img/icon.png" /> 
  <content src="index.html" /> 
@@ -33,11 +33,11 @@
 <preference name="android-targetSdkVersion" value="26" /> 
 <preference name="android-build-tool" value="gradle" /> 
 <preference name="StatusBarOverlaysWebView" value="true" /> 
-<preference name="postRows" value="1" />  
-<preference name="onesignal" value="3f7624a7-abc7-4932-80ad-0bff698a6014" />
-<preference name="admobBannerId" value="ca-app-pub-7201251550135791/7840608298" />
-<preference name="admobInterstitialId" value="ca-app-pub-7201251550135791/7590817543" />
-<preference name="admobAppId" value="ca-app-pub-7201251550135791~4811830711" />
+<preference name="postRows" value="4" />  
+<preference name="onesignal" value="05219727-b539-4448-bd24-3173e9f9b75e" />
+<preference name="admobBannerId" value="ca-app-pub-3489810328478410/5967471030" />
+<preference name="admobInterstitialId" value="ca-app-pub-3489810328478410/3149736005" />
+<preference name="admobAppId" value="ca-app-pub-3489810328478410~8931001131" />
 <preference name="SplashScreenDelay" value="4000" /> 
 <preference name="SplashMaintainAspectRatio" value="true" /> 
 <preference name="ShowSplashScreenSpinner" value="false" /> 
