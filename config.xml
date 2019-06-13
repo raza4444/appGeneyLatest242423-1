@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?> 
-<widget id="com.musictechno.videosong" version="1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0"> 
-<name>Indian Songs  MT</name> 
+<widget id="com.musictechno.pawansingh" version="1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0"> 
+<name>Bhojpuri Gana  MT</name> 
  <author email="umardraz651@gmail.com" href="http://cordova.io">umar draz</author> 
  <icon src="www/img/icon.png" /> 
  <content src="index.html" /> 
@@ -34,10 +34,10 @@
 <preference name="android-build-tool" value="gradle" /> 
 <preference name="StatusBarOverlaysWebView" value="true" /> 
 <preference name="postRows" value="4" />  
-<preference name="onesignal" value="05219727-b539-4448-bd24-3173e9f9b75e" />
-<preference name="admobBannerId" value="ca-app-pub-3489810328478410/5967471030" />
-<preference name="admobInterstitialId" value="ca-app-pub-3489810328478410/3149736005" />
-<preference name="admobAppId" value="ca-app-pub-3489810328478410~8931001131" />
+<preference name="onesignal" value="1a60b38c-98d8-473a-9c07-f0c6b59793d0" />
+<preference name="admobBannerId" value="ca-app-pub-3489810328478410/8201099741" />
+<preference name="admobInterstitialId" value="ca-app-pub-3489810328478410/6385509091" />
+<preference name="admobAppId" value="ca-app-pub-3489810328478410~8983752273" />
 <preference name="SplashScreenDelay" value="4000" /> 
 <preference name="SplashMaintainAspectRatio" value="true" /> 
 <preference name="ShowSplashScreenSpinner" value="false" /> 
