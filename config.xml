@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?> 
-<widget id="com.puretunes.mohammadrafi" version="1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0"> 
-<name>Best Of Mohammad Rafi  PT</name> 
+<widget id="com.musictechno.hindivideosong" version="1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0"> 
+<name>Best of 70s 80s 90s  MT</name> 
  <author email="umardraz651@gmail.com" href="http://cordova.io">umar draz</author> 
  <icon src="www/img/icon.png" /> 
  <content src="index.html" /> 
@@ -33,11 +33,11 @@
 <preference name="android-targetSdkVersion" value="26" /> 
 <preference name="android-build-tool" value="gradle" /> 
 <preference name="StatusBarOverlaysWebView" value="true" /> 
-<preference name="postRows" value="3" />  
-<preference name="onesignal" value="0e4b104d-6e3d-4652-8f9c-032ffec778cf" />
-<preference name="admobBannerId" value="ca-app-pub-8191771676816164/1672092672" />
-<preference name="admobInterstitialId" value="ca-app-pub-8191771676816164/7685878827" />
-<preference name="admobAppId" value="ca-app-pub-8191771676816164~3751461103" />
+<preference name="postRows" value="4" />  
+<preference name="onesignal" value="a37c5ac7-cc7c-4a3a-9376-c9f6bb23557d" />
+<preference name="admobBannerId" value="ca-app-pub-3489810328478410/2838545126" />
+<preference name="admobInterstitialId" value="ca-app-pub-3489810328478410/3042682968" />
+<preference name="admobAppId" value="ca-app-pub-3489810328478410~1541952931" />
 <preference name="SplashScreenDelay" value="4000" /> 
 <preference name="SplashMaintainAspectRatio" value="true" /> 
 <preference name="ShowSplashScreenSpinner" value="false" /> 
