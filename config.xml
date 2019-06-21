@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?> 
-<widget id="com.wexet.mohammadrafisongs" version="1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0"> 
-<name>Mohammad Rafi Songs WT</name> 
+<widget id="com.wexet.latamangeshkarsongs" version="1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0"> 
+<name>Lata Mangeshkar Songs WT</name> 
  <author email="umardraz651@gmail.com" href="http://cordova.io">umar draz</author> 
  <icon src="www/img/icon.png" /> 
  <content src="index.html" /> 
@@ -34,10 +34,10 @@
 <preference name="android-build-tool" value="gradle" /> 
 <preference name="StatusBarOverlaysWebView" value="true" /> 
 <preference name="postRows" value="1" />  
-<preference name="onesignal" value="ff3975af-9417-4617-a3f5-7458fcd3a321" />
-<preference name="admobBannerId" value="ca-app-pub-7201251550135791/1970619343" />
-<preference name="admobInterstitialId" value="ca-app-pub-7201251550135791/5718292665" />
-<preference name="admobAppId" value="ca-app-pub-7201251550135791~7959698222" />
+<preference name="onesignal" value="b3d00c63-a4a0-43a7-9f08-a4c32804451a" />
+<preference name="admobBannerId" value="ca-app-pub-7201251550135791/7154539558" />
+<preference name="admobInterstitialId" value="ca-app-pub-7201251550135791/7127631151" />
+<preference name="admobAppId" value="ca-app-pub-7201251550135791~7552751538" />
 <preference name="SplashScreenDelay" value="4000" /> 
 <preference name="SplashMaintainAspectRatio" value="true" /> 
 <preference name="ShowSplashScreenSpinner" value="false" /> 
