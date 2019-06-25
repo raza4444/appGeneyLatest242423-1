@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?> 
-<widget id="com.wexet.alkayagniksong" version="1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0"> 
-<name>Alka Yagnik Songs PT</name> 
+<widget id="com.puretunes.alkayagniksong" version="1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0"> 
+<name>Alka Yagnik Songs PT2</name> 
  <author email="umardraz651@gmail.com" href="http://cordova.io">umar draz</author> 
  <icon src="www/img/icon.png" /> 
  <content src="index.html" /> 
@@ -34,7 +34,7 @@
 <preference name="android-build-tool" value="gradle" /> 
 <preference name="StatusBarOverlaysWebView" value="true" /> 
 <preference name="postRows" value="3" />  
-<preference name="onesignal" value="68642add-6fd1-4de6-a9fb-5f5fb7f40bc3" />
+<preference name="onesignal" value="312edb9a-f846-466d-812d-3f3b7de90beb" />
 <preference name="admobBannerId" value="ca-app-pub-2712145761453335/9601481759" />
 <preference name="admobInterstitialId" value="ca-app-pub-2712145761453335/9757394429" />
 <preference name="admobAppId" value="ca-app-pub-2712145761453335~7611589144" />
