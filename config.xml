@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?> 
-<widget id="com.puretunes.a_r_rahman_tamil_hindi_songs" version="1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0"> 
-<name>A R Rahman Tamil & Hindi Songs PT</name> 
+<widget id="com.puretunes.a_r_rahman_tamil_songs" version="1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0"> 
+<name>A R Rahman Tamil Songs PT</name> 
  <author email="umardraz651@gmail.com" href="http://cordova.io">umar draz</author> 
  <icon src="www/img/icon.png" /> 
  <content src="index.html" /> 
@@ -33,8 +33,8 @@
 <preference name="android-targetSdkVersion" value="26" /> 
 <preference name="android-build-tool" value="gradle" /> 
 <preference name="StatusBarOverlaysWebView" value="true" /> 
-<preference name="postRows" value="3" />  
-<preference name="onesignal" value="5344f950-cb3c-4d4b-92e8-8f30cee5595f" />
+<preference name="postRows" value="1" />  
+<preference name="onesignal" value="40a675b6-75df-4b10-b10c-bbd8b68f6a05" />
 <preference name="admobBannerId" value="ca-app-pub-2712145761453335/4576696843" />
 <preference name="admobInterstitialId" value="ca-app-pub-2712145761453335/8669761192" />
 <preference name="admobAppId" value="ca-app-pub-2712145761453335~5860190053" />
