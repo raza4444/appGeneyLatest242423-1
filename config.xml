@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?> 
-<widget id="com.puretunes.asha_bhosle_marathi_bengali_hindisongs" version="1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0"> 
-<name>Asha Bhosle Hindi Songs PT</name> 
+<widget id="com.puretunes.atifaslamallhitsongs" version="1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0"> 
+<name>Atif Aslam Hit Songs PT</name> 
  <author email="umardraz651@gmail.com" href="http://cordova.io">umar draz</author> 
  <icon src="www/img/icon.png" /> 
  <content src="index.html" /> 
@@ -34,10 +34,10 @@
 <preference name="android-build-tool" value="gradle" /> 
 <preference name="StatusBarOverlaysWebView" value="true" /> 
 <preference name="postRows" value="3" />  
-<preference name="onesignal" value="3d1924dc-9b03-4a44-83b2-064c53912aee" />
-<preference name="admobBannerId" value="ca-app-pub-2712145761453335/1790929017" />
-<preference name="admobInterstitialId" value="ca-app-pub-2712145761453335/8956949078" />
-<preference name="admobAppId" value="ca-app-pub-2712145761453335~3295582370" />
+<preference name="onesignal" value="7a359983-3e44-4f97-bc61-3b97c5cc11f1" />
+<preference name="admobBannerId" value="ca-app-pub-2712145761453335/2818329404" />
+<preference name="admobInterstitialId" value="ca-app-pub-2712145761453335/5360732265" />
+<preference name="admobAppId" value="ca-app-pub-2712145761453335~5743875642" />
 <preference name="SplashScreenDelay" value="4000" /> 
 <preference name="SplashMaintainAspectRatio" value="true" /> 
 <preference name="ShowSplashScreenSpinner" value="false" /> 
