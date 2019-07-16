@@ -46,7 +46,7 @@ function initAd(){
   AdMob.setOptions({
       // adSize: 'SMART_BANNER',
       position: AdMob.AD_POSITION.BOTTOM_CENTER,
-      isTesting: true, // set to true, to receiving test ad for testing purpose
+      isTesting: false, // set to true, to receiving test ad for testing purpose
       bgColor: 'black', // color name, or '#RRGGBB'
        autoShow: false // auto show interstitial ad when loaded, set to false if prepare/show
       // offsetTopBar: false, // avoid overlapped by status bar, for iOS7+
@@ -277,7 +277,7 @@ $(document).on('resume', function(){
       license: "thanksgod@live.co.uk/b9614fd65737b2ef21e9210ed56200a0",
       adId: admobid.banner,
       position: AdMob.AD_POSITION.BOTTOM_CENTER,
-    isTesting: true, // TODO: remove this line when release
+    isTesting: false, // TODO: remove this line when release
     overlap: false,
     offsetTopBar: false,
     bgColor: ' '
@@ -285,7 +285,7 @@ $(document).on('resume', function(){
     AdMob.prepareInterstitial({
       license: "thanksgod@live.co.uk/b9614fd65737b2ef21e9210ed56200a0",
       adId: admobid.interstitial,
-    isTesting: true, // TODO: remove this line when release
+    isTesting: false // TODO: remove this line when release
     autoShow: false
   });  
   }
@@ -312,7 +312,7 @@ $(document).on('resume', function(){
       license: "thanksgod@live.co.uk/b9614fd65737b2ef21e9210ed56200a0",
       adId: admobid.banner,
       position: AdMob.AD_POSITION.BOTTOM_CENTER,
-      isTesting: true, // TODO: remove this line when release
+      isTesting: false, // TODO: remove this line when release
       overlap: false,
       offsetTopBar: false,
       bgColor: ' '
@@ -330,7 +330,7 @@ $(document).on('resume', function(){
       license: "thanksgod@live.co.uk/b9614fd65737b2ef21e9210ed56200a0",
       adId: admobid.interstitial,
       autoShow: false,
-    isTesting: true // TODO: remove this line when release
+    isTesting: false // TODO: remove this line when release
   });
   }
 
