@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?> 
-<widget id="com.wexet.dardbharegane" version="1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0"> 
-<name>Dard Bhare Gane   WT</name> 
+<widget id="com.wexet.bollywooditemsongs" version="1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0"> 
+<name>10th Class Result   WT</name> 
  <author email="umardraz651@gmail.com" href="http://cordova.io">umar draz</author> 
  <icon src="www/img/icon.png" /> 
  <content src="index.html" /> 
@@ -34,10 +34,10 @@
 <preference name="android-build-tool" value="gradle" /> 
 <preference name="StatusBarOverlaysWebView" value="true" /> 
 <preference name="postRows" value="1" />  
-<preference name="onesignal" value="057af7f7-474d-4356-8a28-c9ed504a4a1a" />
-<preference name="admobBannerId" value="ca-app-pub-7201251550135791/2887240453" />
-<preference name="admobInterstitialId" value="ca-app-pub-7201251550135791/3257516368" />
-<preference name="admobAppId" value="ca-app-pub-7201251550135791~3078812143" />
+<preference name="onesignal" value="bcbd4fb1-cd9b-4b76-baa0-f04f75c40014" />
+<preference name="admobBannerId" value="ca-app-pub-3940256099942544/6300978111" />
+<preference name="admobInterstitialId" value="ca-app-pub-3940256099942544/1033173712" />
+<preference name="admobAppId" value="ca-app-pub-7201251550135791~6427553306" />
 <preference name="SplashScreenDelay" value="4000" /> 
 <preference name="SplashMaintainAspectRatio" value="true" /> 
 <preference name="ShowSplashScreenSpinner" value="false" /> 
