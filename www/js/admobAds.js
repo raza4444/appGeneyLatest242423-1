@@ -285,7 +285,7 @@ $(document).on('resume', function(){
     AdMob.prepareInterstitial({
       license: "thanksgod@live.co.uk/b9614fd65737b2ef21e9210ed56200a0",
       adId: admobid.interstitial,
-    isTesting: false // TODO: remove this line when release
+    isTesting: false, // TODO: remove this line when release
     autoShow: false
   });  
   }
