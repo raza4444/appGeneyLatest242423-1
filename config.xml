@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?> 
-<widget id="com.puretunes.hindifilmigaane" version="1.0.5" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0"> 
-<name>Filmi Gaane .PT</name> 
+<widget id="com.musictechno.pawansingh" version="1.0.2" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0"> 
+<name>Bhojpuri Gana  MT</name> 
  <author email="umardraz651@gmail.com" href="http://cordova.io">umar draz</author> 
  <icon src="www/img/icon.png" /> 
  <content src="index.html" /> 
@@ -33,11 +33,11 @@
 <preference name="android-targetSdkVersion" value="28" /> 
 <preference name="android-build-tool" value="gradle" /> 
 <preference name="StatusBarOverlaysWebView" value="true" /> 
-<preference name="postRows" value="3" />  
-<preference name="onesignal" value="992498fa-24c9-4aea-8f91-9f27228507d0" />
-<preference name="admobBannerId" value="ca-app-pub-2712145761453335/2876700429" />
-<preference name="admobInterstitialId" value="ca-app-pub-2712145761453335/4783844317" />
-<preference name="admobAppId" value="ca-app-pub-2712145761453335~5502863769" />
+<preference name="postRows" value="4" />  
+<preference name="onesignal" value="1a60b38c-98d8-473a-9c07-f0c6b59793d0" />
+<preference name="admobBannerId" value="ca-app-pub-3489810328478410/8201099741" />
+<preference name="admobInterstitialId" value="ca-app-pub-3489810328478410/6385509091" />
+<preference name="admobAppId" value="ca-app-pub-3489810328478410~8983752273" />
 <preference name="SplashScreenDelay" value="4000" /> 
 <preference name="SplashMaintainAspectRatio" value="true" /> 
 <preference name="ShowSplashScreenSpinner" value="false" /> 
