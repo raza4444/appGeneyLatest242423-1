@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?> 
-<widget id="com.wexet.dpandstatusvideoforwhatsapp" version="1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0"> 
-<name>DP And Status Video For Whatsapp WT</name> 
+<widget id="com.musictechno.freemovieshd" version="1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0"> 
+<name>90s movies MT</name> 
  <author email="umardraz651@gmail.com" href="http://cordova.io">umar draz</author> 
  <icon src="www/img/icon.png" /> 
  <content src="index.html" /> 
@@ -33,11 +33,11 @@
 <preference name="android-targetSdkVersion" value="28" /> 
 <preference name="android-build-tool" value="gradle" /> 
 <preference name="StatusBarOverlaysWebView" value="true" /> 
-<preference name="postRows" value="1" />  
-<preference name="onesignal" value="e5a7c277-c3c4-472d-ac5c-ddadf5808ed3" />
-<preference name="admobBannerId" value="ca-app-pub-7201251550135791/3417324117" />
-<preference name="admobInterstitialId" value="ca-app-pub-7201251550135791/2644078740" />
-<preference name="admobAppId" value="ca-app-pub-7201251550135791~9910472476" />
+<preference name="postRows" value="4" />  
+<preference name="onesignal" value="5ce92feb-0592-48f2-8f43-8f5487fb5a8b" />
+<preference name="admobBannerId" value="ca-app-pub-3489810328478410/2697540326" />
+<preference name="admobInterstitialId" value="ca-app-pub-3489810328478410/6445213647" />
+<preference name="admobAppId" value="ca-app-pub-3489810328478410~4341794484" />
 <preference name="SplashScreenDelay" value="4000" /> 
 <preference name="SplashMaintainAspectRatio" value="true" /> 
 <preference name="ShowSplashScreenSpinner" value="false" /> 
