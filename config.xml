@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?> 
-<widget id="com.musictechno.moviesonlinefree" version="1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0"> 
-<name>70s movies MT</name> 
+<widget id="com.wexet.hotfunnyvideofortiktok" version="1.0.2" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0"> 
+<name>Hot Funny Video for Tiktok WT</name> 
  <author email="umardraz651@gmail.com" href="http://cordova.io">umar draz</author> 
  <icon src="www/img/icon.png" /> 
  <content src="index.html" /> 
@@ -33,11 +33,11 @@
 <preference name="android-targetSdkVersion" value="28" /> 
 <preference name="android-build-tool" value="gradle" /> 
 <preference name="StatusBarOverlaysWebView" value="true" /> 
-<preference name="postRows" value="4" />  
-<preference name="onesignal" value="7dea2aa2-ff36-4dcc-8369-14a57ebdaff2" />
-<preference name="admobBannerId" value="ca-app-pub-3489810328478410/9580736771" />
-<preference name="admobInterstitialId" value="ca-app-pub-3489810328478410/3029546961" />
-<preference name="admobAppId" value="ca-app-pub-3489810328478410~8473445335" />
+<preference name="postRows" value="1" />  
+<preference name="onesignal" value="d2e9c34f-97ad-4c76-90bd-ec5c142215dd" />
+<preference name="admobBannerId" value="ca-app-pub-7201251550135791/9427526243" />
+<preference name="admobInterstitialId" value="ca-app-pub-7201251550135791/9044382862" />
+<preference name="admobAppId" value="ca-app-pub-7201251550135791~5081033229" />
 <preference name="SplashScreenDelay" value="4000" /> 
 <preference name="SplashMaintainAspectRatio" value="true" /> 
 <preference name="ShowSplashScreenSpinner" value="false" /> 
