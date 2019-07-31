@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?> 
-<widget id="com.wexet.hotfunnyvideofortiktok" version="1.0.2" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0"> 
-<name>Hot Funny Video for Tiktok WT</name> 
+<widget id="com.puretunes.bhojpurivideosongs" version="1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0"> 
+<name>Bhojpuri Video Songs PT</name> 
  <author email="umardraz651@gmail.com" href="http://cordova.io">umar draz</author> 
  <icon src="www/img/icon.png" /> 
  <content src="index.html" /> 
@@ -33,11 +33,11 @@
 <preference name="android-targetSdkVersion" value="28" /> 
 <preference name="android-build-tool" value="gradle" /> 
 <preference name="StatusBarOverlaysWebView" value="true" /> 
-<preference name="postRows" value="1" />  
-<preference name="onesignal" value="d2e9c34f-97ad-4c76-90bd-ec5c142215dd" />
-<preference name="admobBannerId" value="ca-app-pub-7201251550135791/9427526243" />
-<preference name="admobInterstitialId" value="ca-app-pub-7201251550135791/9044382862" />
-<preference name="admobAppId" value="ca-app-pub-7201251550135791~5081033229" />
+<preference name="postRows" value="3" />  
+<preference name="onesignal" value="a2cbba60-3e03-4d78-b7a9-72310f61d875" />
+<preference name="admobBannerId" value="ca-app-pub-2712145761453335/8266852779" />
+<preference name="admobInterstitialId" value="ca-app-pub-2712145761453335/3468207266" />
+<preference name="admobAppId" value="ca-app-pub-2712145761453335~5773030304" />
 <preference name="SplashScreenDelay" value="4000" /> 
 <preference name="SplashMaintainAspectRatio" value="true" /> 
 <preference name="ShowSplashScreenSpinner" value="false" /> 
